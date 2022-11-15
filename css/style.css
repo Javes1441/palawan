@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background: #1D92EC;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins';
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin-top: 5px;
+    color: beige;
+    padding: 5px;
+}
+
+.contact{
+    margin-top: 10px;                                                                                                            
+}
+.hero {
+    background-image: url(https://a.cdn-hotels.com/gdcs/production51/d1749/1e08b3c0-78c1-4f82-b4fb-de80213c7fd7.jpg?impolicy=fcrop&w=800&h=533&q=medium);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+.hero h1{
+    color: beige;
+    font-family: 'Poppins';
+    font-size: 250px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0;
+}
+.hero p{
+    color: beige;
+    font-family: 'Poppins';
+    font-size: 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0;
+}
+#tri-logo{
+    display: flex;
+    justify-content: center;
+    clip-path: polygon(50% 0%, 65% 50%, 50% 100%, 35% 50%);
+    background-color: beige;
+}
+#tri-logo .trilogo{
+    width: 50px;
+}
+.bookings{
+    background-image: url(../img/Mad-Monkey-Hostels-Palawan-Philippines-The-Complete-Travel-Guide.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 0px;
+    width: 300px;
+    background: #80aaca;
+    border-radius: 10px;
+}
+.bookings h1 {
+    margin-top: 60px;
+
+}
+.cards h3{
+    
+    padding: 3px;
+    text-align: center;
+}
+.card-img{
+    width: 300px;
+}
+.cards p {
+    padding: 6px;
+}
+.btn-Chnow{
+    background-color: aliceblue;
+    width: 90px;
+    padding: 7px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.COTACT-D{
+    background: #80aaca url(../img/acbe229187fcaa3630a645246a6e5e35.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.glass{
+    background-color: rgba(255, 255, 255 , .5);
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    
+}
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 100px
+}
+input , select{
+    width: 70%;
+    height: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.submit-btn{
+    
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #1D92EC;
+}
+.getintouch{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.getintouch h1 , a{
+
+    
+    color: black;
+}
